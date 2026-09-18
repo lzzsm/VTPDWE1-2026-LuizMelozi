@@ -1,0 +1,31 @@
+/* =========================================================
+   tematica.css
+   Estilo especifico da pagina tematica "Meus jogos" (games.html)
+   ========================================================= */
+
+main section nav {
+  background-color: #ffffff;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+main section nav a {
+  color: #415A77;
+  padding: 4px 8px;
+}
+
+main section nav a:hover {
+  background-color: #E0A458;
+  color: #1B263B;
+}
+
+main section[id] {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 24px;
+  border: 1px solid #d9d3c7;
+}
+
+main section[id] figure img {
+  width: 320px;
+}

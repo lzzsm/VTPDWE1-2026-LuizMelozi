@@ -1,0 +1,22 @@
+/* =========================================================
+   cidade.css
+   Estilo especifico da pagina "Minha cidade" (city.html)
+   ========================================================= */
+
+main section article {
+  background-color: #ffffff;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-left: 6px solid #415A77;
+}
+
+abbr {
+  border-bottom: 1px dotted #415A77;
+}
+
+iframe {
+  border: 3px solid #415A77;
+  max-width: 100%;
+  display: block;
+  margin: 16px auto;
+}

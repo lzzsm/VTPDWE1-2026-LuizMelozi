@@ -1,0 +1,41 @@
+/* =========================================================
+   index.css
+   Estilo especifico da pagina "Sobre mim" (index.html)
+   ========================================================= */
+
+main section:first-of-type figure img {
+  width: 220px;
+  border-radius: 0;
+  border: 4px solid #E0A458;
+}
+
+main ul {
+  background-color: #ffffff;
+  padding: 16px 32px;
+  border-left: 6px solid #E0A458;
+}
+
+main ul li {
+  margin-bottom: 6px;
+}
+
+mark {
+  background-color: #E0A458;
+  color: #1B263B;
+  padding: 2px 4px;
+}
+
+main section:last-of-type ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+main section:last-of-type li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #415A77;
+}
+
+main section:last-of-type li a {
+  color: #F4F1EA;
+}

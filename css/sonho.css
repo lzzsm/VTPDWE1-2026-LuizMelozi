@@ -1,0 +1,31 @@
+/* =========================================================
+   sonho.css
+   Estilo especifico da pagina "Meu sonho" (dream.html)
+   ========================================================= */
+
+mark {
+  background-color: #E0A458;
+  color: #1B263B;
+  padding: 2px 4px;
+}
+
+main ul {
+  background-color: #ffffff;
+  padding: 16px 32px;
+  border-left: 6px solid #415A77;
+}
+
+main ul li {
+  margin-bottom: 6px;
+}
+
+.galeria {
+  display: block;
+  text-align: center;
+}
+
+.galeria figure {
+  display: inline-block;
+  vertical-align: top;
+  width: 260px;
+}

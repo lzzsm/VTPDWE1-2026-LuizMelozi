@@ -1,0 +1,28 @@
+/* =========================================================
+   inspiracao.css
+   Estilo especifico da pagina "Quem me inspira" (idol.html)
+   ========================================================= */
+
+main figure img {
+  width: 260px;
+}
+
+blockquote {
+  background-color: #ffffff;
+  border-left: 6px solid #E0A458;
+  margin: 16px 0;
+  padding: 12px 20px;
+  font-style: italic;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 8px;
+  font-style: normal;
+  font-size: 0.9em;
+  color: #415A77;
+}
+
+em {
+  color: #415A77;
+}
