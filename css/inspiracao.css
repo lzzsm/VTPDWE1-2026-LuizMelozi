@@ -1,0 +1,23 @@
+main figure img {
+  width: 260px;
+}
+
+blockquote {
+  background-color: #ffffff;
+  border-left: 6px solid #e0a458;
+  margin: 16px 0;
+  padding: 12px 20px;
+  font-style: italic;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 8px;
+  font-style: normal;
+  font-size: 0.9em;
+  color: #415a77;
+}
+
+em {
+  color: #415a77;
+}

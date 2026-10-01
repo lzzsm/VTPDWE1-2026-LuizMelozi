@@ -1,0 +1,41 @@
+mark {
+  background-color: #E0A458;
+  color: #1B263B;
+  padding: 2px 4px;
+}
+
+main ul {
+  background-color: #ffffff;
+  padding: 16px 32px;
+  border-left: 6px solid #415A77;
+}
+
+main ul li {
+  margin-bottom: 6px;
+}
+
+.galeria {
+  display: flex;
+  flex-direction: column;
+}
+
+.galeria h2 {
+  width: 100%;
+}
+
+.galeria figure {
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .galeria {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .galeria figure {
+    flex: 1 1 200px;
+    margin: 16px 8px;
+  }
+}
